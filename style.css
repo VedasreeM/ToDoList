@@ -1,20 +1,17 @@
+/* Reset default margin, padding, and list styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background image to the body */
 body {
     background-image: url("./assets/bgImg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; 
-}
-
-
-body, h1, ul, li, button {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-/* Apply a background color and text styles to the body */
-body {
+    min-height: 100vh;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
 }
