@@ -24,6 +24,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-self: center;
 }
 
 /* Style the heading */
@@ -44,7 +45,7 @@ input[type="text"] {
 
 /* Style the "Add Task" button */
 button {
-    display: block;
+    /* display: block; */
     width: 100%;
     padding: 10px;
     background-color: #007BFF;
@@ -52,6 +53,8 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: auto;
+    margin-top: 10px;
 }
 
 /* Style the task list */
@@ -62,7 +65,7 @@ ul {
 /* Style individual tasks */
 li {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: #fff;
     padding: 10px;
@@ -72,10 +75,29 @@ li {
 }
 
 /* Style the "Delete" button inside each task */
-li button.delete-button {
+/* li button */
+.delete-button {
+    justify-content: space-between;
     background-color: #FF4444;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.delete{
+    float:right
 }
