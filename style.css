@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* Apply a background image to the body */
@@ -14,17 +15,21 @@ body {
     min-height: 100vh;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* Style the container */
 .container {
-    max-width: 400px;
-    margin: 0 auto;
+    width: 25vw;
+    margin: 0 auto 12em ;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-self: center;
+    align-self: center;  
 }
 
 /* Style the heading */
