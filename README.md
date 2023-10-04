@@ -52,5 +52,6 @@ This project is licensed under the MIT License. For details, please see the [LIC
 - [Anirban Pati](https://github.com/anirbanpati)
 - [Gabriel Poeta](https://github.com/gabrielpoetaa)
 - [PranjalGupta22](https://github.com/PranjalGupta22)
+- [HemanthTigga](https://github.com/HemanthTigga)
 
 Feel free to contribute, report issues, or make suggestions to improve this project! Thank you for using the To-Do List application. Happy task managing!
