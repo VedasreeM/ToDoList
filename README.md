@@ -46,8 +46,11 @@ After cloning or forking the repository, you can run the application locally by 
 
 This project is licensed under the MIT License. For details, please see the [LICENSE.md](LICENSE.md) file.
 
-### Contributor
+### Contributors
 
 - [SreejithMVarma](https://github.com/SreejithMVarma)
+- [Anirban Pati](https://github.com/anirbanpati)
+- [Gabriel Poeta](https://github.com/gabrielpoetaa)
+- [PranjalGupta22](https://github.com/PranjalGupta22)
 
 Feel free to contribute, report issues, or make suggestions to improve this project! Thank you for using the To-Do List application. Happy task managing!
